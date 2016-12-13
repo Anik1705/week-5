@@ -1,0 +1,10 @@
+ for x in range(1,4): # use of range function to creat a serie of number
+    
+     print("{0:2d} {1:4d} {2:6d}".format(x, x, x))
+print ("-" * 16) # multiplication of the string "-" by 20 for the design
+
+for n in range(1, 6): # use of range function to creat a serie of number
+    
+     print("{0:2d} {1:4d} {2:6d}".format(n, n*n, n*n*n)) # value inside {} is to
+                                                         # position the numbers in
+                                                         # a column
