@@ -1,0 +1,9 @@
+changeme = 159753
+password = int(input("What is the password?"))
+count = 1
+
+while password != changeme:
+               password = int(input("Enter password again"))
+               count = count+1
+
+print "Accepted after", count,"attempts !"
